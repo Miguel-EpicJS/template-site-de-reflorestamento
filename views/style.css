@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container h1{
+    color: white;
+    font-size: 56px;
+    margin-bottom: 30px;
+}
+
+#home{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.308), rgba(0, 0, 0, 0.315)), url('img/background.jpg') no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn{
+    background: #0f5a01;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 24px;
+    font-weight: 700;
+    border-radius: 25px;
+    transition: all .5s;
+    cursor: pointer;
+}
+.btn:hover{
+    background: #fff;
+    color: #0f5a01;
+    border: 1px solid #0f5a01;
+}
+.btn-big{
+    padding: 20px 35px;
+    font-size: 30px;
+    border-radius: 36px;
+}
+.btn-small{
+    padding: 10px 25px;
+    font-size: 20px;
+    border-radius: 22px;
+}
+
+.container .splits{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.splits-3{
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.splits-3 .split{
+    flex-basis: 33%;
+}
+.splits-3 .split-1{
+    margin-top: 50px;
+    margin-left: 50px;
+    position: relative;
+}
+.splits-3 .split-3{
+    margin-top: 50px;
+    margin-right: 50px;
+    position: relative;
+}
+.split h2{
+    margin-bottom: 25px;
+    font-size: 36px;
+}
+.split p{
+    line-height: 1.5;
+    font-size: 24px;
+}
+.split .icon{
+    font-size: 78px;
+    color: #21db00;
+}
+.split-1 .icon{
+    position: absolute;
+    transform: rotate(110deg);
+    top: -200px;
+    left: -30px;
+}
+.split-3 .icon{
+    position: absolute;
+    transform: rotate(-70deg);
+    bottom: -230px;
+    right: -30px;
+}
+
+.splits-2 .split{
+    flex-basis: 50%;
+    text-align: center;
+}
+.splits-2 .split{
+    font-size: 22px;
+}
+.splits-2 .split *{
+    margin-bottom: 10px;
+}
+
+#buy h2{
+    font-size: 40px;
+}
+
+footer{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 26px;
+    background: #0f5a01;
+    padding: 20px 5px;
+}
+footer p{
+    margin-top: 15px;
+    color: white;
+}
